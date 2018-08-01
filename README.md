@@ -28,7 +28,7 @@ You can either use:
 
 or 
 
-#[string](get-date).Month + [string](get-date).day + [string](get-date).Year 
+([string](get-date).Month + [string](get-date).day + [string](get-date).Year)
 
 In addition, if you do not wish to copy and paste the above script every time you have to open a new Powershell session, you can edit the default $profile file with Notepad and copy and paste the code there; and every time powershell.exe or powershell_ise.exe opens, the transcript will be saved.
 
